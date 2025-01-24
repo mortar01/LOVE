@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars when dragging */
+    height: 100vh;
+    background-image: url(/images/WhatsApp\ Image\ 2025-01-14\ at\ 17.19.53_413555b4.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.paper {
+    width: 200px;
+    height: 150px;
+    background-image: url(/images/0553d9d2ae7e576b66d34a1e0df8eab6.jpg);
+    border-radius: 10px;
+    position: center;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.1s ease; /* Smooth movement */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.heart {
+    background-color: pink;
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+}
+
+.image {
+    background-color: lightgreen;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 150px;
+}
+
+.image img {
+    width: 100px;
+    height: 125px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
